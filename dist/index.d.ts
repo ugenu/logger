@@ -1,3 +1,3 @@
-import { MakeLogger } from "./logger";
-export { MakeLogger };
-export default MakeLogger;
+import { Logger } from "./logger";
+export { Logger };
+export default Logger;

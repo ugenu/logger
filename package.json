@@ -33,6 +33,7 @@
   "author": "Derek Campbell",
   "license": "ISC",
   "dependencies": {
+    "colors": "^1.4.0",
     "winston": "^3.2.1"
   }
 }
