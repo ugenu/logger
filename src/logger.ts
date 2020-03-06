@@ -4,7 +4,7 @@ const { combine, timestamp, label, prettyPrint, simple } = format;
 import { format as uFormat } from "./logger.format";
 import { colors } from "./level-colors";
  
-export function Logger(domain: string): Logger {
+export function MakeLogger(domain: string): Logger {
   return createLogger({
     transports: [
       new transports.Console({
