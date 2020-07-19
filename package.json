@@ -1,6 +1,6 @@
 {
   "name": "@ugenu.io/logger",
-  "version": "0.0.1",
+  "version": "1.0.1",
   "description": "our universal logger",
   "main": "dist/index.js",
   "scripts": {
@@ -30,7 +30,19 @@
       "pre-commit": "npm run build && git add ."
     }
   },
-  "author": "Derek Campbell",
+  "author": {
+    "name": "ugenu.io",
+    "email": "isses@ugenu.io",
+    "url": "https://ugenu.io"
+  },
+  "keywords": [
+    "logger"
+  ],
+  "homepage": "https://github.com/ugenu/logger",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ugenu/logger"
+  },
   "license": "ISC",
   "dependencies": {
     "colors": "^1.4.0",
